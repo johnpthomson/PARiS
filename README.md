@@ -1,11 +1,11 @@
-![PARiS Logo](logo.png)
-# PARiS
-PARPi Resistance in Series (paired samples) - An R function to analyze clonal evolution and detect PARPi resistance in paired tumour samples
+![ProcessPAIRS Logo](logo.png)
+# ProcessPAIRS
 
+**ProcessPAIRS — PARPi Resistance Analysis in Paired Samples**
 
-**PARiS — PARPi Resistance in Series (paired samples)**
+ProcessPAIRS is an R function designed to analyze clonal evolution and detect PARP inhibitor (PARPi) resistance mechanisms in paired high-grade serous ovarian cancer (HGSOC) patient samples. It integrates SNV (MAF) and CNV data across germline (gDNA), pre-treatment, and post-relapse samples to track mutation clusters, identify resistance events (e.g., BRCA1/2 reversions, HRD restoration, TP53BP1/RAD51 alterations), and generate patient-level summaries and visualizations.
 
-PARiS is an R function designed to analyze clonal evolution and detect PARP inhibitor (PARPi) resistance mechanisms in paired high-grade serous ovarian cancer (HGSOC) patient samples. It integrates SNV (MAF) and CNV data across germline (gDNA), pre-treatment, and post-relapse samples to track mutation clusters, identify resistance events (e.g., BRCA1/2 reversions, HRD restoration, TP53BP1/RAD51 alterations), and generate patient-level summaries and visualizations.
+The logo reflects the paired sample concept with two stylized pears wrapped by a DNA helix, highlighting the evolutionary and genomic tracking focus of the package.
 
 ---
 
@@ -24,5 +24,4 @@ PARiS is an R function designed to analyze clonal evolution and detect PARP inhi
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/<your-username>/PARiS.git
-
+git clone https://github.com/<your-username>/ProcessPAIRS.git
